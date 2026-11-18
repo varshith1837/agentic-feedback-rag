@@ -11,7 +11,7 @@
 
 ---
 
-## 🎯 What This Project Does
+## What This Project Does
 
 This platform processes the **Olist Brazilian E-Commerce dataset** (99,441 orders, 42,687 written reviews) through a full AI-powered analytics pipeline:
 
@@ -27,7 +27,7 @@ This platform processes the **Olist Brazilian E-Commerce dataset** (99,441 order
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 Customer Reviews (Portuguese)
@@ -89,7 +89,7 @@ Customer Reviews (Portuguese)
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.11+
@@ -153,7 +153,7 @@ docker compose up --build
 
 ---
 
-## 🛠️ Agent Tools
+## Agent Tools
 
 The agent can select from **6 fixed, parameterized SQL tools** (no arbitrary SQL execution):
 
@@ -172,7 +172,7 @@ The agent can select from **6 fixed, parameterized SQL tools** (no arbitrary SQL
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -187,7 +187,7 @@ python -m revenue_risk.cli ask "What do customers think about the mobile app?"
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 agentic-feedback-rag/
@@ -221,7 +221,7 @@ agentic-feedback-rag/
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 | Variable | Description | Default |
 |---|---|---|
@@ -233,7 +233,7 @@ agentic-feedback-rag/
 
 ---
 
-## 🔒 Safety & Reliability
+## Safety & Reliability
 
 - **No arbitrary SQL execution** — The LLM selects tools and parameters; SQL is pre-written and parameterized
 - **Pydantic strict mode** — All LLM outputs validated with `extra='forbid'`, type checks, and range constraints
@@ -245,7 +245,7 @@ agentic-feedback-rag/
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [ ] FastAPI backend for production deployment
 - [ ] Vector database integration (Pinecone / Qdrant) for scalable semantic search
@@ -256,7 +256,7 @@ agentic-feedback-rag/
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 This project uses the [Olist Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) (CC BY-NC-SA 4.0). Download `brazil.zip` from Kaggle and place it in `data/` before running `prepare`.
 
