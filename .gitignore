@@ -1,0 +1,42 @@
+# Environment & secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Testing
+.pytest_cache/
+
+# Logs
+*.log
+
+# Large data files (users download separately)
+data/*.zip
+data/*.csv
+
+# Database files (generated locally)
+runtime/*.sqlite
+runtime/*.sqlite-shm
+runtime/*.sqlite-wal
+runtime/*.duckdb
+runtime/*.duckdb.wal
+
+# Results (generated locally)
+results/*.json
+results/*.jsonl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
